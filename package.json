@@ -1,0 +1,14 @@
+{
+  "name": "client-form-app",
+  "version": "1.0.0",
+  "description": "Приложение для приема заявок клиентов",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "multer": "^2.0.2",
+    "nodemailer": "^6.9.7"
+  }
+}
