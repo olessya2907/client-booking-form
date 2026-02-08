@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "Client booking form application",
   "main": "server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-"engines": {
-  "node": ">=18.0.0"
-},
     "@aws-sdk/client-s3": "^3.985.0",
     "@aws-sdk/client-ses": "^3.985.0",
     "dotenv": "^17.2.4",
